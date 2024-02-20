@@ -8,8 +8,7 @@ public:
         if(lh==rh) return (1<<lh)-1;
 
         return 1+countNodes(root->left)+countNodes(root->right);
-         
-        
+                 
     }
 
     int findHeightLeft(TreeNode*node){
@@ -35,5 +34,4 @@ public:
 
     }
 
-    
 };
